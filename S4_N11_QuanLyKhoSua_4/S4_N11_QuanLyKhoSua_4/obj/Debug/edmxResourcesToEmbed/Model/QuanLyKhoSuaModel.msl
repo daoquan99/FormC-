@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLKhoSua1ModelStoreContainer" CdmEntityContainer="QuanLyKhoSuaEntities">
+    <EntitySetMapping Name="CTPhieuNhaps">
+      <EntityTypeMapping TypeName="QLKhoSua1Model.CTPhieuNhap">
+        <MappingFragment StoreEntitySet="CTPhieuNhap">
+          <ScalarProperty Name="SLNhap" ColumnName="SLNhap" />
+          <ScalarProperty Name="ThanhTien" ColumnName="ThanhTien" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="MaPN" ColumnName="MaPN" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CTPhieuXuats">
+      <EntityTypeMapping TypeName="QLKhoSua1Model.CTPhieuXuat">
+        <MappingFragment StoreEntitySet="CTPhieuXuat">
+          <ScalarProperty Name="SLXuat" ColumnName="SLXuat" />
+          <ScalarProperty Name="ThanhTien" ColumnName="ThanhTien" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="MaPX" ColumnName="MaPX" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoaiSPs">
+      <EntityTypeMapping TypeName="QLKhoSua1Model.LoaiSP">
+        <MappingFragment StoreEntitySet="LoaiSP">
+          <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
+          <ScalarProperty Name="TenLoai" ColumnName="TenLoai" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NhanViens">
+      <EntityTypeMapping TypeName="QLKhoSua1Model.NhanVien">
+        <MappingFragment StoreEntitySet="NhanVien">
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="HoNV" ColumnName="HoNV" />
+          <ScalarProperty Name="TenNV" ColumnName="TenNV" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="GT" ColumnName="GT" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="Luong" ColumnName="Luong" />
+          <ScalarProperty Name="MaPB" ColumnName="MaPB" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhieuNhaps">
+      <EntityTypeMapping TypeName="QLKhoSua1Model.PhieuNhap">
+        <MappingFragment StoreEntitySet="PhieuNhap">
+          <ScalarProperty Name="MaPN" ColumnName="MaPN" />
+          <ScalarProperty Name="NgayNhap" ColumnName="NgayNhap" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="ThanhTien" ColumnName="ThanhTien" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhieuXuats">
+      <EntityTypeMapping TypeName="QLKhoSua1Model.PhieuXuat">
+        <MappingFragment StoreEntitySet="PhieuXuat">
+          <ScalarProperty Name="MaPX" ColumnName="MaPX" />
+          <ScalarProperty Name="NgayXuat" ColumnName="NgayXuat" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="ThanhTien" ColumnName="ThanhTien" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhongBans">
+      <EntityTypeMapping TypeName="QLKhoSua1Model.PhongBan">
+        <MappingFragment StoreEntitySet="PhongBan">
+          <ScalarProperty Name="MaPB" ColumnName="MaPB" />
+          <ScalarProperty Name="TenPB" ColumnName="TenPB" />
+          <ScalarProperty Name="MaTP" ColumnName="MaTP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SanPhams">
+      <EntityTypeMapping TypeName="QLKhoSua1Model.SanPham">
+        <MappingFragment StoreEntitySet="SanPham">
+          <ScalarProperty Name="MaSp" ColumnName="MaSp" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="DonGia" ColumnName="DonGia" />
+          <ScalarProperty Name="NSX" ColumnName="NSX" />
+          <ScalarProperty Name="HSD" ColumnName="HSD" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BangThongKes">
+      <EntityTypeMapping TypeName="QLKhoSua1Model.BangThongKe">
+        <MappingFragment StoreEntitySet="BangThongKe">
+          <ScalarProperty Name="MaSp" ColumnName="MaSp" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="Số_Lượng_Nhập" ColumnName="Số Lượng Nhập" />
+          <ScalarProperty Name="Số_Lượng_Xuất" ColumnName="Số Lượng Xuất" />
+          <ScalarProperty Name="Số_lượng_còn_lại" ColumnName="Số lượng còn lại" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
